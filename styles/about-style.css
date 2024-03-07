@@ -58,7 +58,7 @@ a.active {
 }
 
 .about {
-  background-image: url(Images/Biriyani-Home.jpg);
+  background-image: url(/Images/Biriyani-Home.jpg);
   background-size: cover;
 }
 
@@ -89,7 +89,7 @@ a.active {
 }
 
 .vision {
-  background-image: url(Images/fried-rice.webp);
+  background-image: url(/Images/fried-rice.webp);
   background-size: cover;
 }
 
@@ -109,7 +109,7 @@ a.active {
 }
 
 .mission {
-  background-image: url(Images/Parata.jpg);
+  background-image: url(/Images/Parata.jpg);
   padding: 20px;
   margin: 20px 0;
   background-size: cover;

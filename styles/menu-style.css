@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(Images/Menu-bg.jpg);
+  background-image: url(/Images/Menu-bg.jpg);
   background-size: cover;
 }
 
@@ -100,7 +100,7 @@ a.active {
   align-items: center;
 }
 
-.price h2 {
+h2 {
   font-size: 36px;
   color: white;
 }
@@ -141,4 +141,12 @@ footer {
 .footer-left {
   text-align: center;
   flex-grow: 1;
+}
+
+.dark-blur-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 5px 20px;
+  display: inline-block;
 }
