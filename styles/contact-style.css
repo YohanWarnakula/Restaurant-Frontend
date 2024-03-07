@@ -15,14 +15,13 @@ Black: rgb(34, 33, 33)
 }
 
 body {
-  background-image: url(Images/contact-us.jpg);
+  background-image: url(/Images/contact-us.jpg);
   background-size: cover;
   font-size: 14px;
- 
 }
 
 header {
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -73,7 +72,7 @@ a.active {
   box-shadow: 10px 10px 60px rgb(80, 74, 74);
 }
 
-.container h2{
+.container h2 {
   font-size: 40px;
   margin-bottom: 20px;
   color: aliceblue;
@@ -90,13 +89,13 @@ a.active {
   text-align: left;
 }
 
-.contact-form h3{
+.contact-form h3 {
   font-size: 24px;
   margin-bottom: 20px;
   color: aliceblue;
 }
 
-.contact-form label{
+.contact-form label {
   color: aliceblue;
 }
 
@@ -105,7 +104,7 @@ a.active {
   margin-top: 50px;
 }
 
-.contact-form-two label{
+.contact-form-two label {
   color: aliceblue;
 }
 
@@ -118,13 +117,15 @@ a.active {
   background-color: rgb(34, 33, 33);
 }
 
-.form-group-contact-pref label{
+.form-group-contact-pref label {
   display: inline-block;
   text-align: center;
   margin-left: 60px;
 }
 
-input, textarea, select{
+input,
+textarea,
+select {
   width: 100%;
   padding: 12px;
   border-radius: 8px;
@@ -134,7 +135,7 @@ input, textarea, select{
 }
 
 input:focus,
-textarea:focus{
+textarea:focus {
   outline: none;
   box-shadow: 0 0 10px black;
 }
@@ -157,36 +158,32 @@ button:hover {
   color: #65c70a;
 }
 
-
-
 .contact-info {
   text-align: left;
   padding-top: 10px;
 }
 
-.contact-info h3{
+.contact-info h3 {
   font-size: 24px;
   margin-bottom: 20px;
   color: aliceblue;
 }
 
-.contact-info p{
+.contact-info p {
   margin-bottom: 10px;
   color: aliceblue;
 }
 
-.contact-info i{
+.contact-info i {
   color: yellowgreen;
   margin-right: 10px;
 }
 
-
-
-@media screen and(max-width: 768px){
-  .container{
+@media screen and(max-width: 768px) {
+  .container {
     padding: 20px;
   }
-  .contact-wrapper{
+  .contact-wrapper {
     grid-template-columns: 1fr;
   }
 }
@@ -196,7 +193,6 @@ footer {
   color: aliceblue;
   padding: 20px 0;
 }
-
 
 .footer-container {
   display: flex;
