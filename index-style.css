@@ -61,14 +61,20 @@ a.active {
   background-position: right;
   align-items: center;
   height: 100vh;
-  padding: 20% 35%;
+  padding: 20% 0;
+  justify-content: center;
 }
 
 .home-content {
   background: transparent;
-  height: 400px;
-  width: 600px;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: justify;
 }
+
 .home-content img {
   width: 400px;
   height: 400px;
@@ -76,6 +82,7 @@ a.active {
   margin-left: 120px;
   margin-top: -150px;
 }
+
 .home-content h1 {
   font-size: 56px;
   font-weight: 700;
