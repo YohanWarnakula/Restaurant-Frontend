@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(34, 33, 33);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 25px;
+  color: aliceblue;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 25px;
+  padding-right: 20px;
+  transition: 0.3s;
+  font-weight: 400;
+}
+.navbar a:hover,
+a.active {
+  color: #65c70a;
+}
+
+.about,
+.vision,
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 20px 0;
+}
+
+.about {
+  background-image: url(Images/Biriyani-Home.jpg);
+  background-size: cover;
+}
+
+.about-content,
+.vision-content,
+.mission-content {
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: black;
+  box-shadow: 10px 10px 60px rgb(80, 74, 74);
+}
+
+.about-content h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+}
+
+.about-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  line-height: 1.2;
+  color: white;
+}
+
+.vision {
+  background-image: url(Images/fried-rice.webp);
+  background-size: cover;
+}
+
+.vision-content h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.vision-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  line-height: 1.2;
+  color: aliceblue;
+  height: 220px;
+  width: 500px;
+}
+
+.mission {
+  background-image: url(Images/Parata.jpg);
+  padding: 20px;
+  margin: 20px 0;
+  background-size: cover;
+}
+
+.mission-content h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.mission-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  line-height: 1.2;
+  color: aliceblue;
+  height: 250px;
+  width: 500px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center;
+  color: aliceblue;
+}
+
+.location,
+.services,
+.service-type {
+  flex: 1;
+  text-align: center; /* Adjust as needed */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center;
+}
+
+h2 {
+  flex: 1;
+  text-align: center; /* Align content horizontally */
+  padding: 0 20px; /* Adjust as needed */
+}
+
+.delivery img {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%; 
+  margin: 10px 10px;
+  object-fit: cover; 
+}
+
+
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-left {
+  text-align: center;
+  flex-grow: 1;
+}
