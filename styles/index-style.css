@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(/Images/Home-bgimg.jpg);
+  background-image: url(../Images/Home-bgimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
